@@ -46,7 +46,7 @@ function initSearch() {
                 });
             }).join('');
         } else {
-            html = '<li class="search-result-item-tips"><p>No Result found!</p></li>';
+            html = '<li class="search-result-item-tips"><p>没有找到相关文章</p></li>';
         }
         searchResult.html(html);
         containerDisplay(true);
