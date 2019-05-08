@@ -264,6 +264,23 @@
 
 
     
+        <link rel="stylesheet" href="//unpkg.com/gitment/style/default.css">
+    <script src="//unpkg.com/gitment/dist/gitment.browser.js"></script>
+    <div id="comments">
+        <script>
+            var gitment = new Gitment({
+                owner: 'zhujunhan',
+                repo: 'https://github.com/zhujunhan/zhujunhan.github.io',
+                oauth: {
+                    client_id: 'c2c63d0ea4d9d2d02a69',
+                    client_secret: '453c28c988d7d00d5b81d1b3f703295b809d5500',
+                },
+            })
+            gitment.render('comments')
+        </script>
+    </div>
+
+    
 </section>
         
       </div>
