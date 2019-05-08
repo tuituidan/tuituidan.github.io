@@ -897,10 +897,10 @@ body {
 .article-title {
   display: block;
   padding: 7px 80px 7px 15px;
-  border-left: 4px solid #0cc;
+  border-left: 4px solid #463233;
   text-decoration: none;
   font-size: 1.3em;
-  color: #463233;
+  color: #444;
   line-height: 1.1em;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
